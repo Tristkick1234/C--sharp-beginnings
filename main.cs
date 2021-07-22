@@ -6,10 +6,17 @@ namespace HelloWorld
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Embroupler la petiete  ");
-      Console.Write("beepepeboo bangaoala on the same line ");
-      Console.Write("iakjsla "); 
-      //comment
+      /* Casting going to big to small data type or small to big */
+      //User  input
+      Console.WriteLine("Age? ");
+      int age = Convert.ToInt32(Console.ReadLine());
+
+      Console.WriteLine("So you are " + age + "?");
+      
+
+
+
+
     }
   }
 }
