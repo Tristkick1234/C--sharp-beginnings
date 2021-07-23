@@ -13,10 +13,11 @@ namespace HelloWorld
 
       Console.WriteLine("So you are " + age + "?");
       
-
-
-
-
+      if ( age < 18)
+      {
+        Console.WriteLine("You are a minor");
+        
+      }
     }
   }
 }
