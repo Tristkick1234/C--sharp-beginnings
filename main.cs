@@ -6,6 +6,7 @@ namespace HelloWorld
   {
     static void Main(string[] args)
     {
+    
       /* switch for many*/
       Console.WriteLine("Choose a number greater 20 " );
 
@@ -60,6 +61,57 @@ namespace HelloWorld
           break;
 
       }
+
+       
+          // The code i want to go if the second if is true
+    
+        while(true)
+        {
+          string response = Console.ReadLine();
+            if(response == "yes")
+            {
+              double x = Convert.ToDouble(Console.ReadLine());
+              double y = Convert.ToDouble(Console.ReadLine());
+              double sum = x + y;
+              Console.WriteLine(sum);
+
+              
+                if(sum == 0)
+                {
+                  Console.WriteLine("it worked");
+
+                  continue;
+                }
+             
+            continue;
+            
+            }
+            return;
+          
+
+            if(response == "no")
+            {
+              double x = Convert.ToDouble(Console.ReadLine());
+              double y = Convert.ToDouble(Console.ReadLine());
+
+              double difference = x - y;
+              Console.WriteLine(x - y);
+
+
+              if(difference == 0)
+                {
+                  Console.WriteLine("it worked");
+
+                  continue;
+                }
+             
+            return;
+            
+            }
+            return;
+        }
+        
+
     }
   }
 }
